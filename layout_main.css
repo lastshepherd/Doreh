@@ -1,0 +1,46 @@
+body {
+	background-color: hsl(32,23%,78%);
+}
+nav {
+	font-family: helvetica, sans-serif;;
+    position: relative;
+ 	width: 200px;
+    font-size:14px;
+    color:#999;
+    margin-left: auto;
+    margin-top: 15%;
+    float: none;
+}
+nav menu {
+	background-color: red;
+	list-style-type: none;
+
+}
+nav > menu > li {
+	float: right;
+}
+nav menu li a {
+	/*font in the middel?*/
+	/*link font?*/
+	/*menu margin -*/
+	width: 84px;
+	height: 30px;
+	text-align: right;
+    padding:10px 20px;
+    display:block;
+    text-decoration:none;
+    color:#999;
+    margin: -4px;
+    border: 1px solid #383838;
+    color: lightgrey;
+	background-color: black;
+	font-weight: bold;
+}
+
+nav menu li a:hover {
+	width: 88px;
+	height: 32px;
+	background-color: #9B1C26;
+	border-top-color: grey;
+	border-top-style: solid;
+}
