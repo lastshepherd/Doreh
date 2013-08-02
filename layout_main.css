@@ -1,8 +1,9 @@
 body {
 	background-color: hsl(32,23%,78%);
 }
+
 nav {
-	font-family: helvetica, sans-serif;;
+	font-family: helvetica, sans-serif;
     position: relative;
  	width: 200px;
     font-size:14px;
@@ -11,14 +12,16 @@ nav {
     margin-top: 15%;
     float: none;
 }
+
 nav menu {
 	background-color: red;
 	list-style-type: none;
-
 }
+
 nav > menu > li {
 	float: right;
 }
+
 nav menu li a {
 	/*font in the middel?*/
 	/*link font?*/
@@ -35,12 +38,21 @@ nav menu li a {
     color: lightgrey;
 	background-color: black;
 	font-weight: bold;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	transition: all 0.8s;
 }
 
 nav menu li a:hover {
-	width: 88px;
-	height: 32px;
+	padding-left: 30px;
 	background-color: #9B1C26;
 	border-top-color: grey;
 	border-top-style: solid;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
 }
